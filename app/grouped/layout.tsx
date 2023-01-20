@@ -1,12 +1,11 @@
 import type { PageProps } from "@/types";
-import { Header } from "@/components/Header";
-
+import { Title } from "@/components/Title";
 const Layout = ({ children }: PageProps) => {
   return (
-    <div>
-      <Header></Header>
+    <>
+      <Title title="Grouped layouts" slug="/grouped"></Title>
       {children}
-    </div>
+    </>
   );
 };
 

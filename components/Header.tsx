@@ -1,16 +1,17 @@
 import Image from "next/image";
 import { TabItem } from "./TabItem";
+import HeartCounter from "./HeartCounter";
 import Link from "next/link";
 const tabs = [
   {
-    name: "Cart",
-    slug: "cart",
+    name: "Store",
+    slug: "store",
     count: 0,
     item: [],
   },
   {
-    name: "Store",
-    slug: "store",
+    name: "Cart",
+    slug: "cart",
     item: [],
     count: 0,
   },
@@ -32,6 +33,9 @@ function Header() {
         {tabs.map((tab) => (
           <TabItem tab={tab} key={tab.slug} base={"grouped"} />
         ))}
+      </div>
+      <div className="min-w-[200px]">
+        <HeartCounter />
       </div>
     </header>
   );

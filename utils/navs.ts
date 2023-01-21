@@ -39,23 +39,6 @@ const navs: Navs[] = [
       },
     ],
   },
-  {
-    id: 3,
-    name: "Data fetching",
-    routes: [
-      {
-        id: 1,
-        name: "Static Site Generation",
-        path: "/grouped",
-      },
-
-      {
-        id: 2,
-        name: "Server Side Rendering",
-        path: "/grouped",
-      },
-    ],
-  },
 ];
 
 export { navs };

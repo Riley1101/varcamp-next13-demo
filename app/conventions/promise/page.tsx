@@ -1,12 +1,9 @@
-import React from "react";
-
-type Props = {};
 interface Users {
   id: number;
   name: string;
   email: string;
 }
-const LoadingPage = async (props: Props) => {
+const LoadingPage = async () => {
   const data: Users[] = await (
     await fetch("https://jsonplaceholder.typicode.com/users")
   ).json();

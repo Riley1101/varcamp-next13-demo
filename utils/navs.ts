@@ -30,18 +30,12 @@ const navs: Navs[] = [
   },
   {
     id: 2,
-    name: "File Convection",
+    name: "Conventions",
     routes: [
       {
         id: 1,
-        name: "loading.js",
-        path: "/grouped",
-      },
-
-      {
-        id: 2,
-        name: "error.js",
-        path: "/grouped",
+        name: "File convections",
+        path: "/conventions",
       },
     ],
   },

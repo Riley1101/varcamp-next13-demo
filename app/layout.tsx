@@ -15,7 +15,7 @@ export default function RootLayout({
           <div className="w-full h-full p-4">
             <div className="h-full mx-auto md:w-3/5">
               <Breadcrumb />
-              <fieldset className="p-4 border border-gray-800 rounded-md ">
+              <fieldset className="p-4 border border-gray-800 rounded-md min-h-[500px] ">
                 {children}
               </fieldset>
             </div>

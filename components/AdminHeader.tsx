@@ -13,7 +13,7 @@ function AdminHeader() {
       <input
         type="text"
         placeholder="Search"
-        className="px-6 py-2 mx-auto transition-all duration-500 border border-none rounded-full outline-none focus:placeholder:text-theme-accent text-theme-primary hover:bg-gradient-to-r hover:from-theme-accent-opaque hover:border-gray-800 border-theme-accent-opaque bg-theme-accent-opaque"
+        className="px-6 py-2 max-w-[120px] md:max-w-[300px] mx-auto transition-all duration-500 border border-none rounded-full outline-none focus:placeholder:text-theme-accent text-theme-primary hover:bg-gradient-to-r hover:from-theme-accent-opaque hover:border-gray-800 border-theme-accent-opaque bg-theme-accent-opaque"
       />
       <span className="px-4 py-1 text-sm border border-gray-800 rounded-full cursor-pointer hover:bg-gray-800 bg-theme-accent-opaque">
         Logout

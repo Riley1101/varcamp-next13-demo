@@ -22,11 +22,11 @@ const Sidebar = () => {
               {nav.routes.map((route) => (
                 <li
                   key={route.id}
-                  className="flex w-full p-2 transition-all duration-300 border border-transparent rounded-md hover:bg-gradient-to-r hover:from-theme-accent-opaque hover:border-gray-800 group"
+                  className="flex w-full transition-all duration-300 border border-transparent rounded-md hover:bg-gradient-to-r hover:from-theme-accent-opaque hover:border-gray-800 group"
                 >
                   <Link
                     href={route.path}
-                    className="w-full group-hover:text-theme-accent "
+                    className="w-full p-2 group-hover:text-theme-accent "
                   >
                     {route.name}
                   </Link>
